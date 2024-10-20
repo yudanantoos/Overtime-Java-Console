@@ -1,8 +1,9 @@
 package com.vcnc.overtimejavaconsole.view;
 
+import com.vcnc.overtimejavaconsole.model.Model;
+
 public interface Page {
-    void welcomeToPage();
-    void dataPage();
-    void goToPage();
-    void backToPage();
+    void showMenuPage();
+    void showDataPage();
+    void showInputData();
 }
